@@ -8,19 +8,29 @@ class program1
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter N");
 		N = sc.nextInt();
-		pattern1();
-		pattern2();
-		pattern3();
+		pattern1(N);
+		pattern2(N);
+		pattern3(N);
 	}
 	
-	public static void pattern1()
+	public static void pattern1(int N)
 	{
-		System.out.println("Pattern 1");
+		int a = 1, b = 0, c = 1;  
+		int d = a + b + c;  
+		System.out.print(a+"\t"+b+"\t"+c);  
+		for(int i=4; i<=N; i++)  
+		{  
+			System.out.print("\t"+d);  
+			a=b;  
+			b=c;  
+			c=d;  
+			d=a+b+c;  
+		}
 		
 	}
 	
 	
-	public static void pattern2()
+	public static void pattern2(int N)
 	{
 		System.out.println("Pattern 2");
 		for(int i = 1;i*i<=N;i++)
@@ -30,7 +40,7 @@ class program1
 	}
 	
 	
-	public static void pattern3()
+	public static void pattern3(int N)
 	{
 		System.out.println("Pattern 3");
 		int num = 1;
