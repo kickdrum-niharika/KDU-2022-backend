@@ -15,12 +15,14 @@ class program1
 	
 	public static void pattern1(int N)
 	{
-		int a = 1, b = 0, c = 1;  
+		int a = 1, b = 4, c = 7;  
 		int d = a + b + c;  
-		System.out.print(a+"\t"+b+"\t"+c);  
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
 		for(int i=4; i<=N; i++)  
 		{  
-			System.out.print("\t"+d);  
+			System.out.println(d);  
 			a=b;  
 			b=c;  
 			c=d;  
