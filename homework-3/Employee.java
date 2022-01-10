@@ -18,7 +18,7 @@ public class Employee implements Comparable<Employee>
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Employee employee = (Employee) o;
-        return id == employee.salary;
+        return id == employee.id;
     }
     void display()
     {
