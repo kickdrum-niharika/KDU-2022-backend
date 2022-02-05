@@ -1,0 +1,10 @@
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/utilities/loadData/CSVReader.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/entities/Coin.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/utilities/loadData/JsonReader.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/ApplicationDriver.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/utilities/manageTransactions/TransactionManagementSystem.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/entities/Transaction.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/entities/Trader.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/entities/Market.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/utilities/manageTransactions/TransactionManagementFunctions.java
+/home/niharika/Desktop/KDU/Backend/KDU-2022-backend/CryptoFastApp/src/main/java/utilities/loadData/EntityCreator.java
